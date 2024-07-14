@@ -2,40 +2,21 @@
 
 
 
-<P>       0. Introduction                                                      V. 3.0 1 </P>
+
+<img src="images/00_Introduction_FCL-book.V 3.0_img_1.jpg" alt="" width="150" class="float-right"/>
 
 
+<P>Exploring Full Closed Loop potential of-autoISF </P>
+
+<img src="images/00_Introduction_FCL-book.V 3.0_img_2.jpg" alt=""/>
 
 
+## 0. Introduction V. 3.0 1
 
-<img src="Bilder/00_Introduction_FCL-book.V 3.0_img_1.jpg"/>
+Full Closed Loop using Automations is represented in AAPS Master and in the related  [readthedocs] (https://androidaps.readthedocs.io/en/latest/Usage/Full) since autumn 2023.
 
-
-<P>             Exploring Full Closed Loop potential of-autoISF     (=         2 </P>
-<Figure>
-
-<img src="Bilder/00_Introduction_FCL-book.V 3.0_img_2.jpg" alt=""/>
-</Figure>
-
-<P>Disclaimer – Important to read and understand </P>
-
-<P>Authors are no medical professionals but T1 diabetics (or parents of a T1D                                  4 child) who report their -limited - understanding and experience, in an effort to contribute to a grow-5 ing body of knowledge, and to facilitate development of patient centered solutions.  6 </P>
-
-<P>Nothing in this site is medical advice, but meant to stimulate patient-driven self-responsible re-7 search, and is meant also to stimulate product developments by the medical industry. Anything you 8 try to conclude for yourself you do on own risk. This is by no means a medical product but what 9 is offered is a toolset for participating in development.  10 </P>
-
-<P>Never copy what others report to use, but investigate and adjust to your data. Neglecting safety 11 instructions, and just using the “buttons” that are made available in a supposed “learning by doing” 12 mode, would be very dangerous with the early development stage tools this research paper is 13 about.  14 </P>
-
-<P>In case you choose to get deeper involved, run the system disconnected, parallel to your current 15 glucose management, to learn its behavior before eventually considering (on own risk) to go any 16 further. Please stay connected and share experiences, too. 17 </P>
-
-
-
-<P>Introduction </P>
-
-<P>Full Closed Loop using Automations is represented in AAPS Master and in the related 20 readthedocs since autumn 2023. (
-<Link>https://androidaps.readthedocs.io/en/latest/Usage/Full-</Link>
 
 <Link>ClosedLoop.html</Link>
-. ). </P>
 
 <P>Pre-requisites and the principal function of a Full Closed Loop, without the user ever giving a bolus 23 and without entering any carb info are explained, also in a couple of other languages, there (and 24 also in our section 1.) 25 </P>
 
@@ -73,17 +54,13 @@
 
 
 <li>
-<LBody>o on the Trio platform 
-<Link>https://discord.gg/Rr37aAzWz9</Link>
-, dev variant with autoISF see 46 
-<Link>https://github.com/mountrcg/Trio</Link>
- 47 </LBody>
+[on the Trio platform] (https://discord.gg/Rr37aAzWz9) or [dev variant with autoISF] (https://github.com/mountrcg/Trio)
 </li>
 
 <li>
-<LBody>o on the iAPS platform, with  autoISF ported into an early development branch of 48 iAPS: 
-<Link>https://github.com/mountrcg/iAPS /</Link>
- readme.md.                                                         49 dev_autoISF3.x_newUI is the default branch there for autoISF.   </LBody>
+the iAPS platform, with  autoISF ported into an early development branch of iAPS: 
+(https://github.com/mountrcg/iAPS)
+dev_autoISF3.x_newUI is the default branch there for autoISF.
 </li>
 
 
