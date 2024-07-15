@@ -30,7 +30,7 @@ So, if you are unhappy with a slow reaction of your loop it could be because the
 Consult the detail info given (at the time) in your SMB tab, or look it up later in the logfiles 
 (using the Emulator, section 10, eventually).
 
-##	1.4.1 Dexcom G6 and other 5-minute CGMs
+## 1.4.1 Dexcom G6 and other 5-minute CGMs
 
 The best proven way to stay out of trouble currently is to use Dexcom G5 or G6, and to ensure via	
 overlapping right and left arm sensor and transmitter utilization always good quality values, that
