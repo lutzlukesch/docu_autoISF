@@ -62,7 +62,7 @@ dynamicISF or other measures when you were Hybrid Closed Looping,
 ### Stable pump connection
 In FCL you absolutely rely on your pump delivering, without any further delay, the much needed insulin,
 after any meal start. Hence it is absolutely essential to avoid any problems from a lost Bluetooth connection. 
-In AAPS preferences / Local alerts, switch alert on! An Automation similar to the one pictured [here] <img src="images/automation.pn" alt="Description of image" class="float-right">could also help recognizing eventual problems.
+In AAPS preferences / Local alerts, switch alert on! An Automation similar to the one pictured [here] <img src="images/automation.png" alt="Description of image" class="float-right">could also help recognizing eventual problems.
 See also case study 1.4
 
 

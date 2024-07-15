@@ -1,34 +1,29 @@
-1.4 Excellent CGM
-78
-79	You do not give a meal size-related bolus any longer. That leaves all insulination jobs to the
-80	algorithm! Around meals, a stable Bluetooth connectivity is absolutely essential, too, so CGM,
-81	loop, and pump can do their job without losing more valuable time (see case study 1.4).
-82
-83	As glucose values are the very basis for your autoISF loop, please inform yourself well about
-84	your CGM:
-85
-86	•	How it principally performs (e.g. you absolutely must be “SMB always-ready” at cob=0)
+# Excellent CGM
 
-87	•	Whether you are using the best suited intermediate app that reports the “raw” value from
-88	the CGM transmitter into AAPS
+You do not give a meal size-related bolus any longer. That leaves all insulination jobs to the
+algorithm! Around meals, a stable Bluetooth connectivity is absolutely essential, too, so CGM,
+loop, and pump can do their job without losing more valuable time (see case study 1.4).
+	As glucose values are the very basis for your autoISF loop, please inform yourself well about your CGM:
+- How it principally performs (e.g. you absolutely must be “SMB always-ready” at cob=0) 
+Whether you are using the best suited intermediate app that reports the “raw” value from
+the CGM transmitter into AAPS
 
-89	•	Specifically, how and where any smoothing is done, and what this might imply for the ISF
-90	boosting method you will be using See for instance here:
-91	https://androidaps.readthedocs.io/en/latest/Usage/Smoothing-Blood-Glucose-Data.html
+- Specifically, how and where any smoothing is done, and what this might imply for the ISF
+boosting method you will be using See for instance here:
+https://androidaps.readthedocs.io/en/latest/Usage/Smoothing-Blood-Glucose-Data.html
 
-92	•	Go through your data (in all day and also night times) to see whether your CGM produces
-93	any artefacts (jumpy values; see case study 1.3) that the loop could misinterpret as sign of
-94	a starting meal.
+- Go through your data (in all day and also night times) to see whether your CGM produces
+any artefacts (jumpy values; see case study 1.3) that the loop could misinterpret as sign of
+a starting meal.
 
-95	For some of these problems, e.g. “jumps” associated with nighttime compression lows,
-96	there are options to mitigate (see section 5.1.2./3.) . See also the User Action Automation
-97	discussed about 2 pages below (line 149ff).
+For some of these problems, e.g. “jumps” associated with nighttime compression lows,
+there are options to mitigate (see section 5.1.2./3.) . See also the User Action Automation 
+`discussed about 2 pages below (line 149ff).`  "link to be added"
 
-98	•	In case your CGM requires calibrations: Note that calibrations often produce jumps. In that
-99	case, be prepared to do, in the future, an extra handling step to protect from your FCL
-100	reacting harshly.
+- In case your CGM requires calibrations: Note that calibrations often produce jumps. In that
+case, be prepared to do, in the future, an extra handling step to protect from your FCL reacting harshly.
 
-101
+
 102	autoISF has also a couple of in-built checks on the quality of the recent CGM values. Hence, a
 103	CGM with more scatter will make the loop lose more time, and lead to higher peaks and
 104	lower %TIR.
