@@ -16,3 +16,17 @@
     float: right;
     margin: 0 0 10px 10px; /* Adjust margins as needed */
 }
+
+img.float-right {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    max-width: 50%;
+}
+
+img.float-left {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    max-width: 50%;
+}
