@@ -7,6 +7,7 @@
   - [Reliable insulin delivery from the used pump/cannula/insulin system)](section_1.md)
   - [Excellent CGM](section_1/section_1_4.md)
     - [Dexcom G6 and other 5-minute CGMs](section_1/section_1_4.md)
+    - [Libre 3 CGM with 1 minute values](section_1/section_1_4.md)
 - [section 2](section_2.md)
 - [section 3](section_3.md)
 - [Meals: Setting ISF_weights in /Preferences](section_4.md)

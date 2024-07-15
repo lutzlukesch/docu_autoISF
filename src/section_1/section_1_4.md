@@ -73,40 +73,44 @@ This example also underscores that the CGM in use cannot be allowed random scatt
 no reasonable room for safe detection of (smaller and) bigger “truly carb related” deltas
 
 If or when (like: first half day of a new sensor) you are not sure about sufficient CGM
-152	performance you might develop for yourself an Automation with User action ticked (along
-153	the lines as used for other purposes in section 5.2.2.3). It would “ask you” before giving a
-154	SMB whether you really want it delivered. That way you could a) have a look on your
-155	glucose curve b) .. and on the ai % (underneath Austosens%), which indicates the relative
-156	aggressiveness of ISF modulation from “what autoISF sees in your bg curve” c) think about
-157	what sense a SMB now makes with respect to your past meal, and the carbs to be still
-158	absorbed. Ultimately, you could also d) consult some of the detailed info given (every 5
-159	minutes) in your SMB tab.
-160	Such User action Automations need not be active at all times, but if you have it for
-161	your first half day of a new G6 sensor for instance, you could activate that
-162	Automation from your list of Automations; after the values have settled in, you can
-163	de-activate (“shelve”) it again.
-164
-165	For a brief period, and if you are tech savvy, another way to deal with uncertainty about
-166	CGM would be to employ the emulator method as presented in section 11: Run a “too
-167	mildly” tuned FCL, and in parallel run a “what-if” with your more aggressive settings that you
-168	really would like to use once you are certain about your CGM.
-169
-170	However, I found it easiest, to lay a solid groundwork by using 1 Anubis, and two
-171	overlapping G6, to get rid of most problems (…that I keep seeing in my data, on the worse
-172	sensor of the two that often run for some days in parallel; see case study 1.5).
-173
-174	With a sensible iobTH defined (see section 2.4), and your standard alarms for going towards a
-175	hypo not silenced, the worst consequence from any automatically “over-treated” glucose jump
-176	should be that you need an unplanned snack for the balance of “missing” carbs.
-177	Like you should be used to from anti-hypo snacks also in your Hybrid Closed Looping past, you
-178	might also in this case here prevent SMBs for a short while by setting a (here: odd numbered)
-179	temporary glucose target (TT).
-180
-181	A disturbing and late sign of dealing with a too unreliable CGM (or too aggressive settings) could
-182	be a trend towards increasing TDD and body weight during your early FCL experience!
-183
-184	1.4.2 Libre 3 CGM with 1 minute values
-185
+performance you might develop for yourself an Automation with User action ticked (along
+the lines as used for other purposes in [section 5.2.2.3]() ). It would “ask you” before giving a
+SMB whether you really want it delivered. That way you could a) have a look on your
+	glucose curve b) .. and on the ai % (underneath Austosens%), which indicates the relative
+	aggressiveness of ISF modulation from “what autoISF sees in your bg curve” c) think about
+	what sense a SMB now makes with respect to your past meal, and the carbs to be still
+	absorbed. Ultimately, you could also d) consult some of the detailed info given (every 5
+	minutes) in your SMB tab.
+	Such User action Automations need not be active at all times, but if you have it for
+	your first half day of a new G6 sensor for instance, you could activate that
+	Automation from your list of Automations; after the values have settled in, you can
+	de-activate (“shelve”) it again.
+
+
+For a brief period, and if you are tech savvy, another way to deal with uncertainty about
+	CGM would be to employ the emulator method as presented in section 11: Run a “too
+	mildly” tuned FCL, and in parallel run a “what-if” with your more aggressive settings that you
+	really would like to use once you are certain about your CGM.
+
+However, I found it easiest, to lay a solid groundwork by using 1 Anubis, and two
+ overlapping G6, to get rid of most problems (…that I keep seeing in my data, on the worse
+sensor of the two that often run for some days in parallel; see case study 1.5).
+
+
+With a sensible iobTH defined (see section 2.4), and your standard alarms for going towards a
+hypo not silenced, the worst consequence from any automatically “over-treated” glucose jump
+should be that you need an unplanned snack for the balance of “missing” carbs.
+Like you should be used to from anti-hypo snacks also in your Hybrid Closed Looping past, you
+might also in this case here prevent SMBs for a short while by setting a (here: odd numbered)
+temporary glucose target (TT).
+
+A disturbing and late sign of dealing with a too unreliable CGM (or too aggressive settings) could
+	be a trend towards increasing TDD and body weight during your early FCL experience!
+
+
+## 1.4.2 Libre 3 CGM with 1 minute values
+
+
 186	Libre 3 showed promising performance too, and using it with 1-minute values via Jugglucoo is
 187	integrated, starting with autoISF version 3.0.1.
 
