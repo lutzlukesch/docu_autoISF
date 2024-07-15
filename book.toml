@@ -7,10 +7,11 @@ title = "Features autoISF"
 
 [output.html]
 css = ["css/custom.css"]
+js = ["js/custom.js"]
 additional-css = ["./theme/catppuccin.css", "./theme/catppuccin-admonish.css"]
 [preprocessor]
 [preprocessor.catppuccin]
 assets_version = "2.1.0" # DO NOT EDIT: Managed by `mdbook-catppuccin install`
-theme = "latte"
+theme = "mocha"
 
 
