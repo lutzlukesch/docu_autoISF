@@ -111,20 +111,15 @@ A disturbing and late sign of dealing with a too unreliable CGM (or too aggressi
 ## 1.4.2 Libre 3 CGM with 1 minute values
 
 
-186	Libre 3 showed promising performance too, and using it with 1-minute values via Jugglucoo is
-187	integrated, starting with autoISF version 3.0.1.
+Libre 3 showed promising performance too, and using it with 1-minute values via Jugglucoo is 
+integrated, starting with autoISF version 3.0.1. autoISF automatically detects whether values come 
+through Jugglucoo, and adjusts parabola fit calculations to determine acceleration etc. 
+- It is currently too early to tell, but the 1 minute values applied to the parabolic bg 
+curve fit could present an avenue to earlier/better acceleration detection than the 5-minute CGMs enable.
+- When running on Libre3 / 1 minute, you get many more SMBs that each are, on average, much smaller. This has implications on some related settings (notably, the smb_range_
+extention, see [section 2.1](../section_2.md)).
 
-188
-189	autoISF automatically detects whether values come through Jugglucoo, and adjusts parabola fit
-190	calculations to determine acceleration etc. - It is currently too early to tell, but the 1 minute values
-191	applied to the parabolic bg curve fit could present an avenue to earlier/better acceleration detection
-192	than the 5-minute CGMs enable.
-193
-194	When running on Libre3 / 1 minute, you get many more SMBs that each are, on average, much
-195	smaller. This has implications on some related settings (notably, the smb_range_extention, see
-196	section 2.1).
-197
-198	Tests done prior to introducing the 1 minute Libre3 option (from autoISF 3.0.1 onwards) showed
-199	overall comparable but smoother insulin delivery.
-200	Call for a case study 1.6 from a Libre3 user!.
-201
+
+Tests done prior to introducing the 1 minute Libre3 option (from autoISF 3.0.1 onwards) showed
+overall comparable but smoother insulin delivery.
+`Call for a case study 1.6 from a Libre3 user!. ` --> Link to be added
