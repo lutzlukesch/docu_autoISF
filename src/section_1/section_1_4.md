@@ -24,58 +24,50 @@ there are options to mitigate (see section 5.1.2./3.) . See also the User Action
 case, be prepared to do, in the future, an extra handling step to protect from your FCL reacting harshly.
 
 
-102	autoISF has also a couple of in-built checks on the quality of the recent CGM values. Hence, a
-103	CGM with more scatter will make the loop lose more time, and lead to higher peaks and
-104	lower %TIR.
-105
-106	So, if you are unhappy with a slow reaction of your loop it could be because the loop is
-107	unhappy with your CGM.
-108	Consult the detail info given (at the time) in your SMB tab, or look it up later in the logfiles (using
-109	the Emulator, section 10, eventually).
-110
-111
+autoISF has also a couple of in-built checks on the quality of the recent CGM values. Hence, a
+CGM with more scatter will make the loop lose more time, and lead to higher peaks and lower %TIR.
+So, if you are unhappy with a slow reaction of your loop it could be because the loop is unhappy with your CGM.
+Consult the detail info given (at the time) in your SMB tab, or look it up later in the logfiles 
+(using the Emulator, section 10, eventually).
 
-112	1.4.1 Dexcom G6 and other 5-minute CGMs
-113
-114	The best proven way to stay out of trouble currently is to use Dexcom G5 or G6, and to ensure via
-115	overlapping right and left arm sensor and transmitter utilization always good quality values, that
-116	can be used by the Full Closed Loop (case study 1.5).
-117
-118	Other ways (using values from just one G6, or Dexcom ONE, G7, Libre2, or other new AAPS
-119	integrated methods) are possible, but come with a lot of monitoring effort (best via watch), and
-120	occasional time-outs for your FCL.
-121
-122	One safety feature in autoISF is a blockage of SMB delivery whenever delta bg (within the last
-123	two 5 minute values) is higher than 30% of that bg (or higher +20%, at bg targets above 100
-124	mg/dl).
-125	Example: From 74 mg/dl, a jump to 97 (+23 mg&dl = + 31% of 74) or more would not
-126	receive SMB “response”. From 100 mg/dl to 131 mg/dl (+31) would neither.
-127
-128	Check in your (HCL or FCL) data whether at meals or sweet drinks with rapid absorbing carbs you
-129	could run into the problem that jumps are “too high” and much needed insulin will be blocked (only
-130	come via very much smaller portions.
-131	For example,400%TBR @ 0.6 U/h => 0.2 U in 5 minutes, instead of one ~3 U SMB. The
-132	difference (of 2.8 U missed) translates @ ISF~ 40 mg/dl/U into up to + 112 mg/dl higher bg
-133	peak! It will not become quite that bad, because the loop will catch up to the
-134	insulinRequired with its next couple of decisions.
-135
-136	Instead searching in old data, you can also just have an eye on instances where you think a first
-137	SMB was due, but blocked. Confirm that (by looking in the SMB tab) and think about a solution that
-138	would not require changing the 30% safety limit in the code.
-139	For instance, not drinking so much juice rapidly around meal start could be a “behavioral”
-140	correction to get rid of the problem.
-141
-142	This blockage (no SMBs) would likely last only 5 minutes (and go probably unnoticed). However,
-143	not only would you lose 5 valueable minutes to get your iob substantially elevated, but also, all
-144	following deltas are likely much smaller. As a consequence, if the >30% delta was in fact (largely)
-145	due to carb absorption, you would, just when needed most, miss some of the boost sought from
-146	bgAccel_ISF.
-147
-148	This example also underscores that the CGM in use cannot be allowed random scatter that leaves
-149	no reasonable room for safe detection of (smaller and) bigger “truly carb related” deltas
+##	1.4.1 Dexcom G6 and other 5-minute CGMs
+The best proven way to stay out of trouble currently is to use Dexcom G5 or G6, and to ensure via	
+overlapping right and left arm sensor and transmitter utilization always good quality values, that
+can be used by the Full Closed Loop (case study 1.5).
+Other ways (using values from just one G6, or Dexcom ONE, G7, Libre2, or other new AAPS	
+integrated methods) are possible, but come with a lot of monitoring effort (best via watch), and
+occasional time-outs for your FCL.
 
-150
-151	If or when (like: first half day of a new sensor) you are not sure about sufficient CGM
+One safety feature in autoISF is a blockage of SMB delivery whenever delta bg (within the last
+two 5 minute values) is higher than 30% of that bg (or higher +20%, at bg targets above 100	mg/dl).
+Example: From 74 mg/dl, a jump to 97 (+23 mg&dl = + 31% of 74) or more would not
+receive SMB “response”. From 100 mg/dl to 131 mg/dl (+31) would neither.
+
+Check in your (HCL or FCL) data whether at meals or sweet drinks with rapid absorbing carbs you
+could run into the problem that jumps are “too high” and much needed insulin will be blocked (only
+come via very much smaller portions.
+For example,400%TBR @ 0.6 U/h => 0.2 U in 5 minutes, instead of one ~3 U SMB. The
+difference (of 2.8 U missed) translates @ ISF~ 40 mg/dl/U into up to + 112 mg/dl higher bg
+	
+peak! It will not become quite that bad, because the loop will catch up to the
+insulinRequired with its next couple of decisions.
+
+Instead searching in old data, you can also just have an eye on instances where you think a first
+SMB was due, but blocked. Confirm that (by looking in the SMB tab) and think about a solution that
+would not require changing the 30% safety limit in the code.
+For instance, not drinking so much juice rapidly around meal start could be a “behavioral”
+correction to get rid of the problem.
+
+This blockage (no SMBs) would likely last only 5 minutes (and go probably unnoticed). However,
+not only would you lose 5 valuable minutes to get your iob substantially elevated, but also, all
+following deltas are likely much smaller. As a consequence, if the >30% delta was in fact (largely)
+due to carb absorption, you would, just when needed most, miss some of the boost sought from
+bgAccel_ISF.
+
+This example also underscores that the CGM in use cannot be allowed random scatter that leaves
+no reasonable room for safe detection of (smaller and) bigger “truly carb related” deltas
+
+If or when (like: first half day of a new sensor) you are not sure about sufficient CGM
 152	performance you might develop for yourself an Automation with User action ticked (along
 153	the lines as used for other purposes in section 5.2.2.3). It would “ask you” before giving a
 154	SMB whether you really want it delivered. That way you could a) have a look on your
