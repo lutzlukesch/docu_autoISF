@@ -6,8 +6,6 @@
   - [acce_ISF determination and its impact](section_0/acce_ISF_2.md)
   - [bg_ISF determination and its impact](section_0/bg_ISF_3.md)
   - [pp_ISF determination and its impact](section_0/pp_ISF_4.md)
-  
-
 - [Pre-requisites for Full Closed Loop](section_1.md)
   - [Well-tuned hybrid closed loop (HCL)](section_1.md)
   - [Fast insulin (Lyumjev, Fiasp, Apidra?)](section_1.md)
@@ -18,8 +16,6 @@
   - [Meal-related limitations?](section_1/section_1_5.md)
   - [Lifestyle-related limitations?](section_1/section_1_6.md)
   - [Time required for setting-up](section_1/section_1_7.md)
-
-
 - [General Settings for Full Closed Loop](section_2.md)
   - [SMB Range Extention](section_2/section_2_1.md)
     - [Standard scenario: SMB sizes based on 5 minute loop calculations](section_2/section_2_1.md)
