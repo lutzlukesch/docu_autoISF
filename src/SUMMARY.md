@@ -11,7 +11,15 @@
   - [Meal-related limitations?](section_1/section_1_5.md)
   - [Lifestyle-related limitations?](section_1/section_1_6.md)
   - [Time required for setting-up](section_1/section_1_7.md)
-- [section 2](section_2.md)
+
+
+- [General Settings for Full Closed Loop](section_2.md)
+  - [SMB Range Extention](section_2/section_2_1.md)
+  - [Special Libre 3 (1 minute) scenario with up to 5 SMBs per 5 minutes](section_2/section_2_2.md)
+  - [SMB Delivery Ratio](section_2/section_2_3.md)
+
+
+
 - [section 3](section_3.md)
 - [Meals: Setting ISF_weights in /Preferences](section_4.md)
 

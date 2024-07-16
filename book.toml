@@ -12,6 +12,8 @@ additional-css = ["./theme/catppuccin.css", "./theme/catppuccin-admonish.css"]
 [preprocessor]
 [preprocessor.catppuccin]
 assets_version = "2.1.0" # DO NOT EDIT: Managed by `mdbook-catppuccin install`
+additional-js = ["https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"]
 mathjax-support = true
+
 
 
