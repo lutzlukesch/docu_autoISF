@@ -16,7 +16,7 @@ page-break = true # insert page-break after each chapter
 
 [preprocessor]
 [preprocessor.chapter-zero]
-levels = [0]
+levels = [0, 1]
 [preprocessor.catppuccin]
 assets_version = "2.1.0" # DO NOT EDIT: Managed by `mdbook-catppuccin install`
 [preprocessor.mermaid]
