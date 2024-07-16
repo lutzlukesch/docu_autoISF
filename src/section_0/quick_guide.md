@@ -1,1 +1,8 @@
-# Quick guide
+# AutoISF3.0.1 – Quick User Guide
+
+<div class="admonition warning">
+Disclaimer: I am not a medically trained person and developed these methods purely based on trial and
+numerical experimentation. For example, I had no mathematical model of the reaction kinetics of the free
+fatty acids which are one reasons for temporary insulin resistance. If you want to try some of these
+features yourself you do it at your own risk and your own liability.
+</div>
