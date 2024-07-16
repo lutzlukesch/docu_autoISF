@@ -17,8 +17,9 @@ For situations of increased insulin sensitivity (less insulin need), you must sp
 autoISF_min should be set to 0.3. Again, see whether you ever run into that limit, that your loop
 e.g. “would like” to act softer, but bounces against that set limit.
 
-<Textbox width="100"> Do not keep autoISF_min at 0.5 or even higher, because that would for instance preclude
-later, that your exercise setting can strongly “soften” your loop. </Textbox>
+Do not keep autoISF_min at 0.5 or even higher, because that would for instance preclude
+later, that your exercise setting can strongly “soften” your loop.
+
 
 
 

@@ -6,14 +6,20 @@ src = "src"
 title = "Features autoISF"
 
 [output.html]
-css = ["css/custom.css"]
-js = ["js/custom.js"]
-additional-css = ["./theme/catppuccin.css", "./theme/catppuccin-admonish.css"]
+additional-css = ["./theme/catppuccin.css", "./theme/catppuccin-admonish.css", "./theme/custom.css"]
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
+mathjax-support = true
+
 [preprocessor]
 [preprocessor.catppuccin]
 assets_version = "2.1.0" # DO NOT EDIT: Managed by `mdbook-catppuccin install`
-additional-js = ["https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"]
-mathjax-support = true
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[output.html.print]
+enable = true    # include support for printable output
+page-break = true # insert page-break after each chapter
 
 
 

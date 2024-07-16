@@ -20,6 +20,8 @@
   - [Max and Min autoISF Ratio](section_2/section_2_2.md)
     
   - [SMB Delivery Ratio](section_2/section_2_3.md)
+    - [Standard scenario, using 5 minute loop calculations](section_2/section_2_3_1.md)
+    
 
 
 
