@@ -15,7 +15,10 @@
 
 - [General Settings for Full Closed Loop](section_2.md)
   - [SMB Range Extention](section_2/section_2_1.md)
-  - [Special Libre 3 (1 minute) scenario with up to 5 SMBs per 5 minutes](section_2/section_2_2.md)
+    - [Standard scenario: SMB sizes based on 5 minute loop calculations](section_2/section_2_1.md)
+    - [Special Libre 3 (1 minute) scenario with up to 5 SMBs per 5 minutes](section_2/section_2_1.md)
+  - [Max and Min autoISF Ratio](section_2/section_2_2.md)
+    - 
   - [SMB Delivery Ratio](section_2/section_2_3.md)
 
 
