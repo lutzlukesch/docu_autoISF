@@ -1,6 +1,8 @@
 # Summary
 [Home](README.md)
 
+- [Quick guide](section_0/quick_guide.md)
+
 - [Pre-requisites for Full Closed Loop](section_1.md)
   - [Well-tuned hybrid closed loop (HCL)](section_1.md)
   - [Fast insulin (Lyumjev, Fiasp, Apidra?)](section_1.md)
