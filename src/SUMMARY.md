@@ -1,11 +1,6 @@
 # Summary
 [Home](README.md)
 
-- [Quick guide](section_0/quick_guide.md)
-  - [Introduction](section_0/introduction_1.md)
-  - [acce_ISF determination and its impact](section_0/acce_ISF_2.md)
-  - [bg_ISF determination and its impact](section_0/bg_ISF_3.md)
-  - [pp_ISF determination and its impact](section_0/pp_ISF_4.md)
   
 - [Pre-requisites for Full Closed Loop](section_1.md)
   - [Well-tuned hybrid closed loop (HCL)](section_1.md)
@@ -25,6 +20,12 @@
     
   - [SMB Delivery Ratio](section_2/section_2_3.md)
     - [Standard scenario, using 5 minute loop calculations](section_2/section_2_3_1.md)
+
+-[Quick guide](section_0/quick_guide.md)
+  - [Introduction](section_0/introduction_1.md)
+  - [acce_ISF determination and its impact](section_0/acce_ISF_2.md)
+  - [bg_ISF determination and its impact](section_0/bg_ISF_3.md)
+  - [pp_ISF determination and its impact](section_0/pp_ISF_4.md)
     
 
 
