@@ -43,10 +43,13 @@ Otherwise acce_ISF is calculated by
 \\[ acce_ISF = 1 + acce_weight * fit_share * cap_weight * acceleration \\]
 
 
-where fit_share a measure of fit quality, i.e. 0% if unacceptable up to 100% if perfect;
-cap_weight is 0.5 below target and 1.0 otherwise;
-acce_weight is bgAccel_ISF_weight for acceleration away from target, i.e. mostly positive
-or bgBrake_ISF_weight for acceleration towards target, i.e. mostly negative
+where
+* fit_share a measure of fit quality, i.e. 0% if unacceptable up to 100% if perfect;
+* cap_weight is 0.5 below target and 1.0 otherwise
+* acce_weight 
+  * is bgAccel_ISF_weight for acceleration away from target, i.e. mostly positive
+  or bgBrake_ISF_weight for acceleration towards target, i.e. mostly negative
+
 Initially I had assumed that the weights for accelerating and braking are of similar size. First experiences
 say that the weight while decelerating should be 30-40% lower than for acceleration to reduce glucose
 oscillations. Quite often the acce_ISF contribution plays the dominant role inside autoISF and is therefore
