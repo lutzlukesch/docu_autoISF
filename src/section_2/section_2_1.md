@@ -1,4 +1,4 @@
-# SMB Range Extention
+# 2.1 SMB Range Extention
 preferences/OpenAPS SMB/autoISF settings/smb delivery settings/smb_max_range_extension
 
 ## 2.1.1 Standard scenario: SMB sizes based on 5 minute loop calculations
