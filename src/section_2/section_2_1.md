@@ -33,11 +33,11 @@ automatically allow increased SMB size.
 
 Watch out (in your SMB tab, or using the emulator, section 10) whether you often run into a
 limitation by your set smb_max_range_extention. For instance, your attempts to increase initial
-SMB sizes via elevated smb_delivery_ratio [section 2.3](section_2.3.md) and elevated bgAccel_ISF_weight
+SMB sizes via elevated smb_delivery_ratio [section 2.3](section_2_3.md) and elevated bgAccel_ISF_weight
 (section 4.2) might get cut by a too low smb_max_range_extention.
 
 The SMBs your loop requests could get reduced in size also by other safety settings, notably by
-your autoISF_max setting [see section 2.2](section_2.2.md).
+your autoISF_max setting [see section 2.2](section_2_2.md).
 
 
 ## 2.1.2 Special Libre 3 (1 minute) scenario with up to 5 SMBs per 5 minutes
