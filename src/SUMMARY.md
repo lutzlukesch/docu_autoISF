@@ -1,7 +1,7 @@
 # Summary
 [Home](README.md)
 
-- [Quick guide](section_0/quick_guide.md)
+-[Quick guide](section_0/quick_guide.md)
   - [Introduction](section_0/introduction_1.md)
   - [acce_ISF determination and its impact](section_0/acce_ISF_2.md)
   - [bg_ISF determination and its impact](section_0/bg_ISF_3.md)
