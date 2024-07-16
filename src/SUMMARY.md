@@ -1,6 +1,19 @@
-# Summary
 [Home](README.md)
 
+
+# Quick Guide
+
+
+- [Quick guide](section_0/quick_guide.md)
+  - [Introduction](section_0/introduction_1.md)
+  - [acce_ISF determination and its impact](section_0/acce_ISF_2.md)
+  - [bg_ISF determination and its impact](section_0/bg_ISF_3.md)
+  - [pp_ISF determination and its impact](section_0/pp_ISF_4.md)
+
+
+
+
+# Full Closed Loop (FCL) with autoISF
 
   
 - [Pre-requisites for Full Closed Loop](section_1.md)
@@ -28,8 +41,3 @@
 - [Case Studies](case_studies/case_studies.md)
   - [Case Studie 1.5](case_studies/case_study_1.5.md)
 
-- [Quick guide](section_0/quick_guide.md)
-  - [Introduction](section_0/introduction_1.md)
-  - [acce_ISF determination and its impact](section_0/acce_ISF_2.md)
-  - [bg_ISF determination and its impact](section_0/bg_ISF_3.md)
-  - [pp_ISF determination and its impact](section_0/pp_ISF_4.md)
